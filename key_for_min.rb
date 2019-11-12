@@ -6,6 +6,7 @@ lowest_value = ""
 name_hash.each do |key,value|
   if value < lowest_value || lowest_value == ""
     lowest_value = value
+    binding.pry
   else
     return nil
   end
