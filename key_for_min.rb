@@ -6,7 +6,7 @@ name_hash.each do |key,value|
   if value < name_hash[key]
     return key
   else
-    return nil
+    return {}
   end
 end
 end
